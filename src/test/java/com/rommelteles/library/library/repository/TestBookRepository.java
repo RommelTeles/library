@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.rommelteles.library.entity.Author;
-import com.rommelteles.library.entity.Book;
-import com.rommelteles.library.entity.Company;
-import com.rommelteles.library.repository.AuthorRepository;
-import com.rommelteles.library.repository.BookRepository;
-import com.rommelteles.library.repository.CompanyRepository;
+import com.rommelteles.library.entity.author.Author;
+import com.rommelteles.library.entity.book.Book;
+import com.rommelteles.library.entity.company.Company;
+import com.rommelteles.library.repository.author.AuthorRepository;
+import com.rommelteles.library.repository.book.BookRepository;
+import com.rommelteles.library.repository.company.CompanyRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,4 +1,4 @@
-package com.rommelteles.library.entity;
+package com.rommelteles.library.entity.company;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -13,6 +13,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
+
+import com.rommelteles.library.entity.book.Book;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
