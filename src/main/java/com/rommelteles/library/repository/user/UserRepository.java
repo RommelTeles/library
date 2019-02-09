@@ -1,8 +1,8 @@
 package com.rommelteles.library.repository.user;
 
 import com.rommelteles.library.entity.user.User;
-import com.rommelteles.library.infrastructure.AbstractRepository;
+import com.rommelteles.library.infrastructure.IRepository;
 
-public interface UserRepository extends AbstractRepository<User> {
+public interface UserRepository extends IRepository<User> {
 
 }
